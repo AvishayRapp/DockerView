@@ -2,6 +2,8 @@
 
 This is a terminal-based UI (TUI) for monitoring system resources and managing Docker containers. It provides a clean, real-time view of your running and stopped containers, along with key system metrics like CPU and RAM usage.
 
+![DockerView PlaceHolder](DockerView.png "DockerView TUI")
+
 -----
 
 ### **Features**
