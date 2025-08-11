@@ -68,7 +68,6 @@ The script leverages the **Docker SDK for Python** and the **psutil** library to
 
   * `get_cpu_usage()` and `get_ram_usage()` fetch system-wide resource metrics.
   * `get_docker_containers()` iterates through all containers, pulling their status, image, and port information.
-  * `_get_container_ram_stats()` extracts the memory usage for each individual container.
   * The `_perform_action()` function handles all the container management commands like start, stop, and delete.
 
 Feel free to modify the script to fit your specific needs or add new features\!
