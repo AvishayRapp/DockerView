@@ -10,7 +10,6 @@ This is a terminal-based UI (TUI) for monitoring system resources and managing D
 
   * **Real-time Monitoring:** Displays host system CPU and RAM usage with dynamic bar graphs.
   * **Container Status:** Lists all Docker containers, showing their ID, name, image, port mappings, and current status.
-  * **Resource Usage per Container:** Shows the real-time **RAM** usage for each container.
   * **Container Management:** Easily start, stop, restart, rename, or delete containers with simple keyboard shortcuts.
   * **Uptime Display:** Provides a clear, formatted uptime for all running containers.
   * **Intuitive Interface:** A simple, `curses`-based TUI that is easy to navigate and read.
@@ -25,8 +24,6 @@ To run this script, you need to have the following installed on your system:
   * **Docker**
   * **Docker SDK for Python:** `pip install docker`
   * **psutil:** `pip install psutil`
-
-Additionally, since the script uses `iptables` as a fallback method to discover host port mappings, you may need to run it with `sudo` permissions on Linux systems if your user doesn't have direct access to `iptables`.
 
 -----
 
